@@ -1,0 +1,185 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.main {
+    /* background-color: limegreen; */
+    margin: 0px auto;
+    padding: 25px;
+    width: 50%;
+    /* justify-content: center; */
+}
+
+/* Home Page */
+.datetime {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    padding: 5px;
+    align-items: center;
+}
+
+.time{
+    /* background-color: aqua; */
+    font-size: 98px;
+    margin-bottom: -15px;
+}
+
+.date{
+    /* background-color: pink; */
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.add{
+    /* background-color: orange; */
+    display: flex;
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.line{
+    height: 2px;
+    width: 95%;
+    background-color: rgba(0, 0, 0, 0.292);
+    margin-right: 2%;
+}
+
+.entries{
+    display: flex;
+    flex-direction: column;
+}
+
+.entry-container {
+    display: flex;
+    width: 100%;
+    /* background-color: yellow; */
+    border-bottom: 2px solid rgba(0, 0, 0, 0.341);
+}
+
+.entry-left {
+    /* background-color: purple; */
+  margin-right: 5%;
+  padding: 10px;
+}
+
+.left-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 30%;
+    object-fit: cover;
+}
+
+.entry-right {
+/* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+    width: 70%;
+
+}
+
+.entry-details {
+  /* flex-grow: 1; */
+  /* background-color: bisque; */
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.entry-details h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.entry-details p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.entry-actions {
+    /* background-color: greenyellow; */
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.uploaddate {
+    color: rgba(0, 0, 0, 0.447);
+
+}
+
+.btn-edit {
+  color: #4d8eff;
+  margin-left: 77%;
+  margin-right: 20px;
+}
+
+.btn-delete {
+  color: #ff0000;
+}
+
+
+/* Add Page */
+h4 {
+    font-size: 64px;
+    /* font-weight: 300px; */
+text-align: center;
+}
+
+
+.mane {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form {
+    /* background-color: yellowgreen; */
+    width: 400px;
+    padding: 20px;
+   margin-top:100px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+}
+
+.input-group {
+    margin-bottom: 50px;
+}
+
+.input-group input[type="text"],
+.input-group textarea , input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 18px;
+    /* border-radius: 5px; */
+}
+
+.input-group input[type="submit"] , input[type="submit"] {
+    width: 30%;
+    padding: 8px;
+    background-color: #4d8eff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.input-group input[type="submit"]:hover {
+    background-color: #357ae8;
+}
